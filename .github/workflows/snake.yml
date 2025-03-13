@@ -16,10 +16,10 @@ jobs:
       - name: Generate Snake SVG
         uses: Platane/snk@master
         with:
-          github_user_name: shree-bot
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+  github_user_name: shree-bot
+  gif_out_path: dist/github-contribution-grid-snake.gif
+  svg_out_path: dist/github-contribution-grid-snake.svg
+
 
       # Push the snake SVGs to the output branch
       - name: Push snake to the output branch
